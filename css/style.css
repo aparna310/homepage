@@ -1,0 +1,1277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: 'Avenir';
+    /* src: url('/fonts/AvenirLTStd-Black.otf'); */
+    /* src: url('/fonts/AvenirLTStd-Book.otf'); */
+    src:url('/fonts/AvenirLTStd-Roman.otf')
+
+    
+}
+@font-face {
+    font-family: 'Bold Avenir';
+    src: url('/fonts/AvenirLTStd-Black.otf');
+}
+@font-face {
+    font-family: 'Roman Avenir';
+    src:url('/fonts/AvenirLTStd-Roman.otf');
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.section1{
+    height: 40px;
+    background-color: #454A57;
+}
+.section1 .wrapper{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.left-section{
+    height: 19px;
+    float: left;
+    padding: 10px;
+   
+}
+.clear{
+    clear: both;
+    display: block;
+}
+.left-section img{
+    float: left;
+    display: block;
+}
+.left-section p{
+    float: left;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 12px;
+    line-height: 16px;
+}
+.right-section{
+    
+    height: 19px;
+    float: right;
+    padding: 10px 5px;   
+}
+.right-section .mail{
+    
+height: 19px;
+display: inline;
+float: left;
+margin-right:50px;
+padding-left: 8px;
+
+
+}
+.right-section .mail p{
+
+height: 19px;
+float: right;
+color: #FFFFFF;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+}
+.right-section .mail img{
+    float: left;
+    margin-right: 5px;
+}
+.right-section .phone{
+    height: 19px;
+    float: right;
+    padding-right:8px ;
+    
+}
+.right-section .phone p{
+
+    height: 19px;
+    float: right;
+    color: #FFFFFF;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.right-section .phone img{
+    float: left;
+    margin-right:5px;
+}
+ .navbar {
+    background-color: #FFFFFF;
+    height: 80px;
+  
+    
+}
+.navbar .wrapper{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.navbar-brand{
+    display: block;
+    cursor: pointer;
+    float: left;
+}
+.navbar-brand img{
+    
+height: 59px;
+padding: 10px;
+
+}
+.nav-item{
+    
+    height: 19px;
+    float: right;
+    margin: 29px 0px 32px 40px;
+    
+}
+
+
+    ul li{
+   float: left;
+    display: inline;
+   
+}
+ul li a{
+   
+    height: 19px;
+    padding-left:40px;
+   color:  #838383;
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+
+ul li a:active{
+    color: #2554B9;
+}
+.nav-btn{
+    border-radius: 30px;
+    text-align: center;
+    gap: 20px;
+    height: 43px;
+    background:  #2554B9;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #2554B9;
+    border: none;
+    padding: 12px 30px;
+    
+    } 
+    #li-btn{
+        float: right;
+        padding-left: 39px;
+        
+    }
+    .main-banner{
+        height:550px;
+        background-size: cover;
+        background-position: center;
+        
+
+    }
+   
+    .main-banner h1{
+        height: 132px;
+        font-family: 'Bold Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 66px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top:93px;
+        margin-bottom: 46px;
+        margin-right: 33px;
+        
+    }
+    .main-banner h1 span{
+        color: #2554B9;
+    }
+    .main-banner .btn{
+        height: 46px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #2554B9;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 19px;
+         padding: 13px 34px 14px 29px;
+         width: 260px;
+        height: 46px;
+        margin-right:50px;
+         
+        
+    }
+    .btn-main{
+        margin: 0 auto;
+        margin-top: 50px;
+        padding-left: 455px;
+
+        
+        
+    }
+    .btn-main .btn img{
+        padding-top: 5px;
+    }
+    .mouse{
+       
+        height: 210px;
+        padding: 164px;
+
+    }
+    .mouse img{
+    
+        margin-left: 409px;
+    }
+    .section2{
+       padding-top:96px ;
+    }
+    .section2 .main{
+        height: 638px;
+    
+    }
+    .main .left-div{
+        width: 584px;
+        height: 505px;
+        float: left;
+        padding:40px 40px;
+       
+    }
+    .left-div h1{
+        height: 50px;
+        padding-bottom: 7px;
+         font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 50px;
+        color: #031539;
+        
+    }
+    .left-div p{
+        height: 130px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 20px;
+        color: #393939;
+    }
+    .details{
+        
+        height: 265px;
+        display: inline-block;
+        padding-top: 40px;
+
+    }
+    .details .project{
+        display: inline;
+        width: 385px;
+           height: 55px;
+           
+    }
+    .project img{
+        float: left;
+        padding-right: 43px;
+    }
+    .project h1{
+        float: left;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        color: #2554B9;
+    }
+    .project h4{
+        float: left;
+        padding-left: 8px;
+        height: 55px;
+        padding-top: 14px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #031539;
+
+        
+        
+    }
+    .details .client{
+        height: 55px;
+        display: inline;
+    }
+     .client img{
+        float: left;
+        padding-right: 43px;
+        
+    }
+    .client h1{
+        float: left;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+       text-align: center;
+        color: #2554B9;
+    }
+    .client h4{
+        float: left;
+        padding-left: 8px;
+        height: 55px;
+        padding-top: 14px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #031539;
+
+    } 
+
+    .details .world{
+        display: inline;
+      
+        height: 55px;
+    }
+    .world img{
+        float: left;
+        padding-right: 43px;
+    }
+    .world h1{
+        float: left;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+          text-align: center;
+          color: #2554B9;
+    }
+    .world h4{
+        float: left;
+        padding-left: 8px;
+        height: 55px;
+        padding-top: 14px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #031539;
+
+    }
+    .main .right-div{
+        
+        height: 638px;
+
+          float: right;
+
+    }
+    .section3{
+        height: 148px;
+        padding-top:100px ;
+       
+    }
+    .section3 h1{
+      text-align: center;
+      height: 50px;
+      margin: 0 auto;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 50px;
+      text-align: center;
+      color: #031539;
+
+    }
+    .section3 p{
+        height: 78px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        
+        color: #393939;
+        padding-top: 20px;
+    }
+    .section4{
+        height: 160px;
+        padding-top: 40px;
+    }
+    .section4 .wrapper{
+         width: 1002px;
+         height: 160px;
+         margin: 0 auto;
+    }
+    .section4 .inner-4{
+       
+        display: inline;
+        float: left;
+        margin: 0 auto;
+         
+         height: 160px;
+   
+        
+    }
+    .inner-4 .profile{
+        
+          height: 160px;
+          float: left;
+          margin-right:223px ;
+
+    }
+    .profile h1{
+        margin-top: 30px;      
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #031539;
+
+    }
+    .inner-4 .visa{
+     
+      height: 160px;
+        float: left;
+        margin-right:191px ;
+    }
+    .visa h1{
+        margin-top: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #031539;
+    }
+    .inner-4 .pro{    
+       height: 160px;
+     float: left;
+     margin-right: 179px;
+
+    }
+    .pro h1{
+        margin-top: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #031539;
+    }
+    .inner-4 .plane{
+        
+       height: 160px;
+          float: left;
+
+    }
+    .plane h1{
+        margin-top: 30px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #031539;
+    }
+    .section5{
+        height: 331px;
+        background-color: #F5F5F5;
+       padding-top:158px;
+    }
+    .section5 .inner-5{
+   
+        height: 331px;
+       
+    }
+    .inner-5 .img1 img{
+        width: 100%;
+    }
+    .inner-5 .img1{
+       
+          height: 331px;
+          float: left;
+          width: 50%;
+    }
+    .inner-5 .img2{
+            
+     height: 331px;
+     background-color: #0B1730;
+     float: right;
+     width: 50%;
+    }
+    .inner-5 .img2 h1{
+       
+        height: 50px;
+        font-family: 'Raleway';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 24px;
+       line-height: 50px;
+       text-align: center;
+       color: #FFFFFF;
+       padding: 60px 40px 13px 40px;
+
+    }
+    .inner-5 .img2 p{
+       
+        height: 52px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .inner-5 .img2 .btn{
+      
+            height: 46px;
+            background: #FFFFFF;
+            border-radius: 30px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #2554B9;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+           padding: 4px 30px;
+           gap: 10px;
+        
+    }
+    .btn-main2{
+        height: 200px;
+        margin: 0 auto;
+       padding-left: 187px;
+       padding-top: 50px;
+       padding-bottom: 60px;
+    }
+     .macbook{
+        height: 699px;
+        background-color: #E9EDF5;
+        margin: 0 auto;
+     padding-top: 100px;
+      
+       
+    }
+    .macbook h1{
+        margin: 0 auto;    
+        height: 42px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        color: #031539;
+        text-align: center;
+    }
+    .three-div{
+       
+        height: 309.1px;
+        display: inline;
+      
+        
+    }
+    .three-div .mid-div{
+        
+      height: 309.1px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 10.4427px rgba(0, 0, 0, 0.1);
+      border-radius: 12.5312px;
+      margin-left:110px;
+      margin-top: 60px;
+      float: left;
+
+    }
+    .three-div .mid-div .right{
+        padding: 24px;
+        float: left;
+        height: 309px;
+    }
+    .mid-div .left{
+      float: left;
+    }
+    
+    .mid-div .right .date{
+          height: 17px;
+          padding-top: 24px;
+          padding-left: 60px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.5312px;
+        line-height: 17px;
+        color: #525252;
+
+    }
+    .three-div .first-half{
+        float: left;
+        margin-top: 46px;
+    }
+    .three-div .last-div{
+        float: right;
+        margin-top: 60px;
+       
+    }
+    .mid-div .right .text{
+       
+        height: 140px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #393939;
+        
+    }
+    .mid-div .short-main{
+       
+        height: 145px;
+        padding: 50px 54px;
+    } 
+    .short-main .left{
+        float: left;
+        height: 75px;
+        margin-right: 5px;
+    }
+    .short-main .mid{
+        float: left;
+    }
+    .short-main .sub-right{
+        float: right;
+        height: 75px;
+    }
+    
+
+    .paginate{
+        
+height: 26px;
+
+
+    }
+    .paginate img{
+        margin: 0 auto;
+padding: 59.9px 403px;
+    }
+    
+    
+    
+   
+    .section6{
+        height: 455px;
+        background-color: #F5F5F5;
+        padding-top: 134px;
+    }
+    .section6 .wrapper{
+        height: 455px;
+    }
+
+    .section6 .main{
+        
+        height: 455px;
+        display: inline;
+        
+    }
+    .section6 .left{
+        float: left;
+    }
+    .section6 .right{
+        float: left;
+    }
+    .destination{
+        height: 216px;
+         float: left;
+    }
+    .destination h1{
+             
+        height: 100px;
+        left: 3px;
+        top: 134px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 50px;
+        color: #031539;
+        text-transform: capitalize;
+        
+    }
+    .destination p{
+                 
+          height: 104px;
+          left: 0px;
+          top: 246px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #393939;
+          float: left;
+
+    }
+    .paginate-2{
+        height: 26px;
+        display: inline;
+        width: 153px;
+        float: left;
+       padding: 33px 43px;
+        
+    }
+    .paginate-2 .left{
+        float: left;
+        padding-right: 24px;
+      
+    }
+    .paginate2 .right{
+        float: right;
+    }
+      
+      .places{
+              
+      display: inline;
+      float: left;
+      height: 374px;
+      background-color: #F5F5F5;
+      margin-left: 45px;
+
+    }
+    .places h1{
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #031539;
+    }
+
+    .places .place-1{
+       
+        height: 374px;
+        width: 278px;
+       
+          float: left;
+       margin-right: 29px;
+
+    }
+    .places .place-2{
+        width: 278px;
+        height: 374px;
+        float: left;
+        margin-right: 32px;
+        }
+     .place-3{
+        float: right;
+       width: 173px;
+        height: 374px;
+    }
+    .border-1{
+        width: 100%;
+        height:45px ;
+        background: rgba(255, 255, 255, 0.9);
+        margin-top: 329px;
+    }
+    .border-1 .left{
+        float: left;
+    }
+    .border-1 .left img{
+       
+        padding: 10px;
+        margin-left: 77px;
+    }
+    .place-1 .border-1.right{
+        float: left;
+        margin-left: 20px;
+    }
+    .place-1 .border-1 .right h1{
+         padding: 6px;
+         float: left;
+      
+    }
+    .border-2{
+        width: 100%;
+        height:45px ;
+        background: rgba(255, 255, 255, 0.9);
+        margin-top: 329px;
+    }
+    .border-2 .left{
+        float: left;
+    }
+    .border-2 .right{
+       
+        float: left;
+    }
+    .border-2 .left img{
+        padding: 10px;
+        margin-left: 77px;
+    }
+    .border-2 .right h1{
+        padding: 9px;
+      
+    }
+    .border-3{
+        width: 100%;
+        height:45px ;
+        background: rgba(255, 255, 255, 0.9);
+        margin-top: 329px;
+       
+    }
+    .border-3 .left{
+        float: left;
+    }
+    .border-3 .right{
+        float: left;
+    }
+    .border-3 img{
+        padding: 10px;
+        margin-left: 55px;
+    }
+    .border-3 h1{
+        padding: 4px;
+        
+    }
+   
+    .section7{
+        height: 753px;
+        padding-top: 90px;
+    }
+   .section7 .main{
+          height: 616px;
+          width: 1115px;
+          display: inline;
+         
+    }
+     .main .img{
+      width: 468px;
+      height: 616px;
+      float: left;
+     }
+     .main .content{
+      height: 59px;
+       float: right;
+      }
+      .content h1{
+      
+       height: 50px;
+       font-family: 'Raleway';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 36px;
+       line-height: 50px;
+       color: #031539;
+       margin-bottom: 30px;
+       text-transform: capitalize;
+      }
+      .form{
+        height: 635px;
+
+   }
+   .input1{
+    display: inline;
+    height: 59px;
+   }
+   .input1 .left{
+    height: 59px;
+   }
+   
+   .input1 .left label{
+   
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+
+   }
+   .input1 .left input{
+    float: left;
+    height: 40px;
+    width: 230px;
+    background-color: #EDEDED;
+    border: none;
+   }
+   .input1 .right{
+    float: right;
+    margin-top: -16px;
+   }
+   
+   .input1 .right label{
+    float: left;
+    height: 16px;
+ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+    
+   }
+   .input1 .right input{
+    float: right;
+    width: 230px;
+    height: 40px;
+    background-color: #EDEDED;
+    border: none;
+   }
+ 
+   .input-num label{
+    height: 16px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+   }
+   .input-num input{
+    width: 500px;
+    height: 40px;
+   background-color: #EDEDED;
+   border: none;
+   }
+   .form{
+    display: inline;
+   }
+   .input-email{
+    margin-top: 20px;
+   }
+   .input-email label{
+    height: 16px;
+ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+   }
+   .input-email input{
+     width: 500px;
+     height: 40px;
+     background-color: #EDEDED;
+     border: none;
+   }
+     select{
+      width:100%;
+     height: 40px;
+     background-color: #EDEDED;
+     border: none;
+     
+   }
+   .select{
+    margin-top: 20px;
+   }
+   .select label{
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+   }
+   select option{
+    background: #EDEDED;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   }
+   .messge{
+    margin-top: 20px;
+   }
+   .messge label{
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #031539;
+   }
+   .messge textarea{
+     width: 100%;
+    height: 127px;
+   background-color: #EDEDED;
+   border: none;
+   }
+   .form-btn{
+    padding: 50px;
+    margin-left: 175px;
+   }
+   .form button{
+       padding: 12px 30px;
+       gap: 20px;
+      height: 43px;
+      color: #FFFFFF;
+      background: #2554B9;
+      border-radius: 30px;
+      border: none;
+    }
+   .footer{
+
+    height: 472px;
+    background: #0B1730;
+    
+   }
+   .footer .main{
+  
+    height: 282px;
+     padding: 80px 50px;
+    margin: 0 auto;
+   }
+   .footer  .first-part{
+    float: left;
+    color: #FFFFFF;
+   }
+   .footer .first-part p{
+    margin-top: 30px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+   }
+   .footer .main .second-part{
+
+    float: left;
+    margin-left: 160px;
+    margin-right: 239px;
+    color: #FFFFFF;
+   
+   }
+   .footer .main .second-part h5{
+        height: 22px;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+   }
+   .footer .second-part p{
+      height: 22px;
+      
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+     }
+   .footer .main .third-part{
+    float: right;
+    color: #FFFFFF;
+    display: block;
+    height: 195px;
+    }
+   .third-part h5{
+    padding: 10px;
+     height: 22px;
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 22px;
+     color: #FFFFFF;
+     }
+   .third-part .location{
+   
+    height: 24px;
+    margin-top: 37px;
+    }
+   .third-part p{
+     height: 22px;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+
+
+    }
+   .footer .third-part .location .left{
+    float: left;
+    height: 24px;
+
+    }
+   .footer .third-part .location .left img{
+    padding-right: 10px;
+
+    }
+   .footer .location .left p{
+    height: 24px;
+    }
+   .third-part .message{
+    height: 24px;
+    margin-top: 32px;
+     }
+    .footer .third-part .message .left{
+    float: left;
+    
+    }
+    .footer .third-part .message .left img{
+    padding-right: 10px;
+    
+    }
+    .footer .message .right{
+        float: right;
+     }
+     .third-part .call{
+   
+        height: 24px;
+        float: left;
+        margin-top: 32px;
+    }
+    .footer .third-part .call .left{
+            float: left;
+            margin-right: 50px;
+     }
+          
+    .footer .third-part .call .right p{
+     float: right;
+     margin-left: -30px;
+    }
+    .footer .call .right{
+     float: left;
+    }
+    .second-part h5{
+     padding-bottom: 10px;
+     height: 22px;
+     
+    }
+    .second-part p{
+     height: 22px;
+     padding: 10px;
+    }
+    .social-media{
+     height: 32px;
+
+    }
+    .social-media .img1{
+         float: left;
+         margin-right: 25px;
+    }
+    .social-media .img2{
+     float: left;
+     margin-right: 25px;
+     }
+     .social-media .img3{
+         float: left;
+     }
+    .below-footer{
+    
+    
+    border-top: 1px solid #FFFFFF;
+    }
+    .below-footer p{
+           text-align: center;
+       height: 24px;
+       font-family: 'Barlow', sans-serif;
+        font-style: normal;
+       font-weight: 300;
+       font-size: 20px;
+       line-height: 24px;
+       color: #FFFFFF;
+       margin: 0 auto;
+    }
+
+  
+  

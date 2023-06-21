@@ -1,0 +1,132 @@
+div{
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+.div{
+  width: 300px;
+  height: 200px;
+  
+}
+div .div{
+display: inline-block;
+margin: 80px 10px 50px 10px;
+
+
+}
+.wrapper .div img{
+border: 1px solid #ddd;
+object-fit: cover;
+width:100px;
+ height:100px;
+ float: none;
+ position: relative;
+ left: 98px;
+ top: 47px;
+}
+
+.wrapper{
+margin:auto;
+max-width: 1000px;
+}
+ .div-section{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+    margin-top: 50px;
+}
+.div-section .div-item{
+    display: inline-block;
+    
+}
+.div-section .div-item{
+    border: 2px solid red;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    left: 153px;
+    top: 99px;
+    margin-right: 50px;
+    
+   
+}
+.div-item p{
+    text-align: center;
+
+}
+button{
+    position: relative;
+    top:230px;
+    background-color: chocolate;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+ .position{
+    border: 2px solid grey;
+    position: relative;
+    top:100px;
+    width: 97%;
+}
+.wrapper .inner-div{
+     border: 2px solid black;
+     width: 80%;
+     height: 70%;
+     position: absolute;
+     top:50px;
+     left: 50px;
+}
+.inner-div .position-left img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    top:10px;
+
+}
+.inner-div .position-right img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 388px;
+    right: 20px;
+   
+
+}
+ .inner-div .position-center img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: none;
+    position: relative;
+    bottom: 691px;
+    left: 389px;
+}
+.inner-div .bottom-left img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    bottom: 1028px;
+    left: 20px;
+}
+.inner-div .bottom-right img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float:right;
+    position: relative;
+    bottom: 1430px;
+    right:20px;
+}
